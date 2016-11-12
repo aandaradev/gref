@@ -1,0 +1,247 @@
+/* CSS Document */
+BODY {
+	FONT-SIZE: 13px; SCROLLBAR-ARROW-COLOR: #f3960b; FONT-FAMILY: verdana, arial, helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: #000000; SCROLLBAR-BASE-COLOR: #005b70; BACKGROUND-COLOR: #ffffff;
+}
+A:link {
+	FONT-SIZE: 10px; COLOR: #014d5f; FONT-FAMILY: verdana, arial, helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 10px; COLOR: #014d5f; FONT-FAMILY: verdana, arial, helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 10px; COLOR: #014d5f; FONT-FAMILY: verdana, arial, helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 10px; COLOR: #f3960b; FONT-FAMILY: verdana, arial, helvetica, sans-serif; TEXT-DECORATION: underline
+}
+PRE {
+	FONT-SIZE: 11px
+}
+FONT {
+	FONT-SIZE: 13px; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+FONT.med {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+FONT.index {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+FONT.small {
+	FONT-SIZE: 9px; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+.big {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 18pt; 
+	COLOR: #008000; 
+	FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+}
+FONT.big2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+FONT.red {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ff0000; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+FONT.bigred {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+FONT.white {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+H1 {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana, arial, helvetica, sans-serif; TEXT-DECORATION: none
+}
+H2 {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, arial, helvetica, sans-serif; TEXT-DECORATION: none
+}
+
+FORM {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+TABLE {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana, arial, helvetica, sans-serif; border:1px solid black
+}
+TR {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+U {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+B {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+STRONG {
+	FONT-SIZE: 12px; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+.bodyblack {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.boton{
+font-weight:bold;
+border:1px solid black;
+padding:5px 5px;
+border-radius:10px 10px 10px 10px;
+background-color:#0099FF;
+cursor:pointer;
+}
+.boton:hover{
+	background:#2393D7;
+	color:white;
+	box-shadow:0px 0px 10px blue;
+	
+}
+.consultar{
+font-weight:bold;
+background:url(../Imagenes/consulta.jpg);
+background-repeat: no-repeat;
+background-size:101% 101%;
+width:65px;
+height:auto;
+border:1px solid black;
+padding:5px 5px;
+border-radius:10px 10px 10px 10px;
+background-color:#0099FF;
+cursor:pointer;
+}
+.consultar:hover{
+	color:blue;
+	box-shadow:0px 0px 10px blue;
+	
+}
+.guardar{
+font-weight:bold;
+background:url(../Imagenes/guardar.jpg);
+background-repeat: no-repeat;
+background-size:101% 101%;
+width:65px;
+height:auto;
+border:1px solid black;
+padding:5px 5px;
+border-radius:10px 10px 10px 10px;
+background-color:#0099FF;
+cursor:pointer;
+}
+.guardar:hover{
+	color:blue;
+	box-shadow:0px 0px 10px blue;
+	
+}
+.modificar{
+font-weight:bold;
+background:url(../Imagenes/modificar.jpg);
+background-repeat: no-repeat;
+background-size:101% 101%;
+width:65px;
+height:auto;
+border:1px solid black;
+padding:5px 5px;
+border-radius:10px 10px 10px 10px;
+background-color:#0099FF;
+cursor:pointer;
+}
+.modificar:hover{
+	color:blue;
+	box-shadow:0px 0px 10px blue;
+	
+}
+.eliminar{
+font-weight:bold;
+background:url(../Imagenes/eliminar.GIF);
+background-repeat: no-repeat;
+background-size:101% 101%;
+width:65px;
+height:auto;
+border:1px solid black;
+padding:5px 5px;
+border-radius:10px 10px 10px 10px;
+background-color:#0099FF;
+cursor:pointer;
+}
+.eliminar:hover{
+	color:blue;
+	box-shadow:0px 0px 10px blue;
+	
+}
+.cancelar{
+font-weight:bold;
+background:url(../Imagenes/cancelar.jpg);
+background-repeat: no-repeat;
+background-size:101% 101%;
+width:65px;
+height:auto;
+border:1px solid black;
+padding:5px 5px;
+border-radius:10px 10px 10px 10px;
+background-color:#0099FF;
+cursor:pointer;
+}
+.cancelar:hover{
+	color:blue;
+	box-shadow:0px 0px 10px blue;
+	
+}
+.nuevo{
+font-weight:bold;
+background:url(../Imagenes/nuevo.GIF);
+background-repeat: no-repeat;
+background-size:101% 101%;
+width:65px;
+height:auto;
+border:1px solid black;
+padding:5px 5px;
+border-radius:10px 10px 10px 10px;
+background-color:#0099FF;
+cursor:pointer;
+}
+.nuevo:hover{
+	color:blue;
+	box-shadow:0px 0px 10px blue;
+	
+}
+.imprimir{
+font-weight:bold;
+background:url(../Imagenes/print.gif);
+background-repeat: no-repeat;
+background-size:101% 101%;
+width:65px;
+height:40px;
+border:1px solid black;
+padding:5px 5px;
+border-radius:10px 10px 10px 10px;
+background-color:#0099FF;
+cursor:pointer;
+}
+.imprimir:hover{
+	color:blue;
+	box-shadow:0px 0px 10px blue;
+	
+}
+.box{
+	border: 1px solid black;
+	padding: 5px 5px;
+	width: 480px;
+	background: #e3e3e3;
+	border-radius: 10px 10px 10px 10px;	
+}
+.boxu{
+	border: 1px solid black;
+	padding: 5px 5px;
+	width: 930px;
+	background: #e3e3e3;
+	border-radius: 10px 10px 10px 10px;	
+}
+[required]{
+border-color:green;
+box-shadow:0px 0px 5px green;
+}
+:invalid{
+border-color:red;
+box-shadow:0px 0px 5px red;
+}
+.estilo1{
+	font-weight:bold;
+	color:#014d5f;
+	text-shadow:0px 0px 5px blue;
+}

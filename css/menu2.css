@@ -1,0 +1,184 @@
+#marco{
+	width:250px;
+	margin:10px 0;
+	padding:0px;
+	text-align:center;
+}
+.preload2 {
+	background: url(../Imagenes/button4a.gif);
+}
+.menu2{
+	padding:0;
+	margin:0;
+	margin-bottom:0;
+	list-style:none;
+	height:25px;
+	background:#cecece url(../Imagenes/fd_menu.gif) repeat-x;
+	position:relative;
+	font-family:arial, verdana, sans-serif;
+	background-color: #cecece;
+}
+.menu2 li.top{
+	display:block;
+	float:left;
+	position:relative;
+	border-radius: 10px 10px 10px 10px;
+}
+.menu2 li a.top_link{
+	display:block;
+	float:left;
+	height:25px;
+	margin-left:6px;
+	line-height:25px;
+	color:#008000;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	border-radius: 10px 10px 10px 10px;
+	padding:0 0 0 6px;
+	cursor:pointer;
+}
+.menu2 li a.top_link span{
+	float:left;
+	display:block;
+	padding:0 10px 0 6px;
+	height:40px;
+	border-radius: 10px 10px 10px 10px;
+}
+.menu2 li a.top_link:hover span.down{ 
+	background:url(../Imagenes/button4a.gif);
+	border-radius: 10px 10px 10px 10px;
+} 
+.menu2 li a.top_link span.down{
+	float:left;
+	display:block;
+	padding:0 10px 0 6px;
+	height:25px;
+	border-radius: 10px 10px 10px 10px;
+}
+.menu2 li a.top_link:hover{
+	color:#fff; 
+	background:url(../Imagenes/button4a.gif);
+	border-radius: 10px 10px 10px 10px;
+}
+.menu2 li a.top_link:hover span{
+	background:url(../Imagenes/button4a.gif);
+	border-radius: 10px 10px 10px 10px;
+}
+.menu2 li:hover > a.top_link{
+	color:#fff; background:url(../Imagenes/button4a.gif);
+	border-radius: 10px 10px 10px 10px;
+}
+.menu2 li:hover > a.top_link span{
+	background:url(../Imagenes/button4a.gif);
+	border-radius: 10px 10px 10px 10px;
+}
+.menu2 li:hover > a.top_link span.down{
+	background:url(../Imagenes/button4a.gif);
+	border-radius: 10px 10px 10px 10px;
+}
+
+
+.menu2 table{
+	border-collapse:collapse;
+	width:0; height:0;
+	position:absolute;
+	top:0;
+	left:0;
+}
+/* Default link styling */
+
+/* Style the list OR link hover. Depends on which browser is used */
+
+.menu2 a:hover{
+	visibility:visible;
+	border-radius: 10px 10px 10px 10px;
+}
+.menu2 li:hover{
+	position:relative;
+	z-index:200;
+	border-radius: 10px 10px 10px 10px;
+}
+
+/* keep the 'next' level invisible by placing it off screen. */
+.menu2 ul, 
+.menu2 :hover ul ul, 
+.menu2 :hover ul :hover ul ul,
+.menu2 :hover ul :hover ul :hover ul ul,
+.menu2 :hover ul :hover ul :hover ul :hover ul ul{
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	width:0;
+	height:0;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.menu2 :hover ul.sub{
+	left:6px;
+	top:25px;
+	background: #fff;
+	padding:0;	
+	width:auto;
+	height:auto;
+	font-weight:normal;	
+	border-radius: 10px 10px 10px 10px;
+}
+.menu2 :hover ul.sub li{
+	display:block;
+	position:relative;
+	float:left; width:160px;
+	border-bottom:1px solid #005FB9;
+	border-left:1px solid #005FB9;
+	border-right:1px solid #005FB9;
+	margin-bottom:0;
+	border-radius: 10px 10px 10px 10px;
+}
+.menu2 :hover ul.sub li a{
+	display:block;
+	height:auto;
+	font-size:11px;
+	padding:4px 3px;
+	line-height:1;
+	color:#005FB9;
+	text-decoration:none;
+	border-radius: 10px 10px 10px 10px;
+}
+.menu2 :hover ul.sub li a.fly{
+	background:#fff  url(../Imagenes/vineta_menu.gif) no-repeat 150px 6px;
+	border-radius: 10px 10px 10px 10px;
+}
+.menu2 :hover ul.sub li a:hover{
+	background:#E5FAFC;
+	color:#005FB9;
+	border-radius: 10px 10px 10px 10px; 
+}
+.menu2 :hover ul.sub li a.fly:hover{
+	background:#E5FAFC url(../Imagenes/vineta_menu.gif) no-repeat 150px 6px;
+	border-radius: 10px 10px 10px 10px;
+}
+.menu2 :hover ul li:hover > a.fly{
+	background:#E5FAFC;
+	border-radius: 10px 10px 10px 10px;
+} 
+
+.menu2 :hover ul :hover ul,
+.menu2 :hover ul :hover ul :hover ul,
+.menu2 :hover ul :hover ul :hover ul :hover ul,
+.menu2 :hover ul :hover ul :hover ul :hover ul :hover ul{
+	left:160px;
+	top:-1px;
+	background: #fff;
+	padding:0;	
+	width:auto;
+	z-index:300;
+	height:auto;
+}
+.menu2 :hover ul.sub li ul{
+	border-top:1px solid #005FB9;
+	background: #fff;
+	z-index:300;
+	border-radius: 10px 10px 10px 10px;
+}

@@ -1,0 +1,9 @@
+<?php
+	//****Función conectar que se conecta a MYSQL y devuelve el identificador de conexión*****
+	function conectar(){
+		global $HOSTNAME,$PASSWORD,$DATABASE;
+		$idcnx = mysql_connect($HOSTNAME,$USERNAME,$PASSWORD) or die(mysql_error());
+		mysql_select_db($DATABASE, $idcnx);
+		return $idcnx;
+	}
+?>

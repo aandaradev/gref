@@ -1,0 +1,81 @@
+
+
+/*============================*/
+/*=== Custom Slider Styles ===*/
+/*============================*/
+#front_banners_catalogo-wrapper {
+    width:675px;
+    height:300px;
+    margin:0 auto;
+    padding-top:0px;
+    margin-top:0px;
+}
+
+#front_banners_catalogo {
+	position:relative;
+    width:675px;
+    height:300px;
+    margin-left:0px;
+	background:url(../images/loading.gif) no-repeat 50% 50%;
+}
+#front_banners_catalogo img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#front_banners_catalogo a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left:300px;
+	bottom:-30px;
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(../images/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:-25px;
+}
+a.nivo-prevNav {
+	left:-25px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Tahoma;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}

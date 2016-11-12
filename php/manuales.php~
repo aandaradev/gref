@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//ES" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset="UTF-8>
+		<title>...::: Sistema de Información Web :::...</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="stylesheet" type="text/css" href="css/estilo2.css">
+		<link rel="stylesheet" type="text/css" href="css/estilo3.css">
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+		<script type="text/javascript" src="js/titulo.js"></script>
+	</head>
+	<body bgcolor="#cecece">
+		<div id="HEADER" class="HEADER">
+			<ul class="cb-slideshow">
+            <li><span>Image 06</span><div><h3>FOMENTANDO LA SOLIDARIA HACIA LA COLECTIVIDAD<b></b></h3></div></li>
+            <li><span>Image 05</span><div><h3>LOGISTICA EN MANEJO DE EMERGENCIAS Y RESCATE</h3></div></li>
+            <li><span>Image 04</span><div><h3>TRABAJO MANCOMUNADO CON LAS COMUNIDADES</h3></div></li>
+            <li><span>Image 03</span><div><h3>FORMAR PARTE DE NUESTRA ORGANIZACIÓN</h3></div></li>
+            <li><span>Image 02</span><div><h3>PREVENCION Y ADMINISTRACIÓN DE DESASTRES</h3></div></li>
+            <li><span>Image 01</span><div><h3>ADIESTRAMIENTO Y FORMACIÓN CONTINUA</h3></div></li>
+        </ul>
+		</div>
+		<br>		
+		<center>
+			<div id="marco" >
+				<span class="preload2">
+				</span>
+				<!--MENU-->
+				<ul class="menu2">
+					<img src="Imagenes/menu_izq.gif" align="left" />
+					<img src="Imagenes/menu_der.gif" align="right"/>
+					<li class="top">
+						<a href="contenido.php" class="top_link">
+							<span class="down">
+								<b>Inicio</b>
+							</span>
+						</a>
+					</li>
+					<li class="top">
+						<a class="top_link">
+							<span class="down">
+								<b>Quienes Somos</b>
+							</span>
+						</a>		
+						<ul class="sub">			
+							<li>
+								<a href="mision-vision.php">
+									<b>Misión y Visión</b>
+								</a>
+							</li>
+							<li>
+								<a href="resenahistorica.php">
+									<b>Reseña Historica</b>
+								</a>
+							</li>
+							<li>
+								<a href="organigrama.php">
+									<b>Cronograma Organizacional</b>
+								</a>
+							</li>			
+						</ul>		
+					</li>
+					<li class="top">
+						<a class="top_link">
+							<span class="down">
+								<b>Registro</b>
+							</span>
+						</a>
+						<ul class="sub">
+							<li>
+								<a href="planilla.php">
+									<b>Nuevos Miembros</b>
+								</a>									
+							</li>
+							<li>
+								<a href="administradores.php">
+									<b>Acceso Administradores</b>
+								</a>				
+							</li>			
+						</ul>		
+					</li>
+					<li class="top">
+						<a class="top_link">
+							<span class="down">
+								<b>Actividades</b>
+							</span>
+						</a>
+						<ul class="sub">
+							<li>
+								<a href="proximact.php">
+									<b>Proxima Actividad</b>
+								</a>
+							</li>
+							<li>
+								<a href="cronograma.php">
+									<b>Cronograma de Actividades</b>
+								</a>
+							</li>
+							<li>
+								<a href="galeria.php">
+									<b>Galería de Imágenes</b>
+								</a>
+							</li>			
+						</ul>
+					
+					</li>
+					<li class="top">
+						<a class="top_link">
+							<span class="down">
+								<b>Reglamentos</b>
+							</span>
+						</a>
+						<ul class="sub">
+							<li>
+								<a href="estatutos.php">
+									<b>Estatutos del GREF</b>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="top">
+						<a class="top_link">
+							<span class="down">
+								<b>Zona de Descarga</b>
+							</span>
+						</a>
+						<ul class="sub">
+							<li>
+								<a href="manuales.php">
+									<b>Manuales</b>
+								</a>
+							</li>
+							<li>
+								<a href="videosydocu.php">
+									<b>Videos y Documentales</b>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="top">
+						<a class="top_link">
+							<span class="down">
+								<b>Noticias</b>
+							</span>
+						</a>
+						<ul class="sub">
+							<li>
+								<a href="noticias.php">
+									<b>Noticias</b>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="top">
+						<a href="forum/index.php" class="top_link">
+							<span class="down">
+								Foro
+							</span>
+						</a>
+					</li>
+					<li class="top">
+						<a href="contactos.php" class="top_link">
+							<span class="down">
+								Contactos
+							</span>
+						</a>
+					</li>
+				<!-- FIN MENU-->
+			</div>
+		</center>		
+		<div id="cuerpo">
+			<div class="box" id="box14">
+					<center>
+						<b>
+							<h3>Manuales</h3>
+						</b><img src="Imagenes/libros.png" height="100" width="80" align="left" >
+					</center>
+				<br>
+				<h4>
+					Aqui ponemos a su disposición material informativo que le permitira afianzar los conocimientos
+					en materia de rescate, conservación, excursionismo, primeros auxilios y otras áreas de importancia en materia de atención ciudadana. 
+					<br>
+				<br><br><center>
+				<a href="documentos/primerosauxilios.pdf"><h4>Primeros Auxilios Básicos y RCP</h4></a>
+				<a href="documentos/pa2.pdf"><h4>Manual de Primeros Auxilios</h4></a>
+				<a href="documentos/pa3.pdf"><h4>Primeros Auxilios</h4></a>
+				</center><br><br>
+				<b>
+					<center> <h3>Rescate</h3></center>
+					<b>
+					<center>
+							<a href="documentos/manuales/escalada.pdf"><h4>Escalada con cuerdas</h4></a>
+							<a href="documentos/rescatevertical.pdf"><h4>Rescate Vertical</h4></a>
+							<a href="documentos/rescateysalvamento.pdf"><h4>Rescate y Salvamento</h4></a>
+							<a href="documentos/manuales/tecnicasdemontana"><h4>Técnicas de Montaña</h4></a>
+							<a href="documentos/responsabilidad.pdf"><h4>Responsabilidad Legal en Operaciones SAR</h4></a>
+							<a href="documentos/sigenbusquedas.pdf"><h4>SIG Aplicados en Busqueda en Parques Nacionales</h4></a>
+					</center><br><br>
+			</div>
+			<div class="box" id="box12">
+					<b>
+					<center> <h3>Excursionismo</h3></center>
+					<b>
+					<center>
+						    <a href="documentos/manuales/cartografia.pdf"><h4>Cartografía Digital y Espeleología</h4></a><br>
+							<a href="documentos/manuales/cuerdas.pdf"><h4>Cuerdas</h4></a><br>
+							<a href="documentos/manuales/escalada.pdf"><h4>Escalada con Cuerdas</h4></a><br>
+							<a href="documentos/manuales/iniciacion.pdf"><h4>Manual de Iniciación en la Montaña</h4></a><br>
+							<a href="documentos/manuales/nudos-montanistas.pdf"><h4>Nudos para Montañistas</h4></a><br>
+							<a href="documentos/manuales/tecnicasdeescalada.pdf"><h4>Tecnicas de Escalada</h4></a><br>
+					</center><br>
+			</div>
+			<div class="box" id="box13">
+					<b>
+					<center> <h3>Vulnerabilidad y Riesgo</h3></center>
+				<b><br>
+					<center>
+							<a href="documentos/registro-sistematizado.pdf"><h4>Registro Sistematizado de Accidentes Aeronauticos</h4></a><br>
+							<a href="documentos/riesgo.pdf"><h4>Riesgo</h4></a><br>
+							<a href="documentos/sismisidad.pdf"><h4>Sismicidad en Venezuela</h4></a><br>
+							<a href="documentos/vulnerabilidad-riesgo.pdf"><h4>Vulnerabilidad y Riesgo</h4></a><br>
+					</center><br>
+
+				
+			</div>			
+		</div>	
+	</body>
+</html>

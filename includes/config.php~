@@ -1,0 +1,6 @@
+<?php
+	$HOSTNAME = "localhost" //Servidor
+	$USERNAME = "root"	//Usuario de la BD
+	$PASSWORD = "dragon"	//Contraseña de la BD
+	$DATABASE = "gref"	//Nombre de la BD
+?>
